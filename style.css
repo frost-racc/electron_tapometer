@@ -1,7 +1,7 @@
 body{
 	background: black;
 	color: white;
-	font-size: 24px;
+	font-size: 18px;
 	font-family: Verdana;
 	padding: 10px;
 }
@@ -25,7 +25,8 @@ body{
 	user-select: none;
 	font-family: Verdana;
 
-	transition: all 0.2s ease-in-out; 
+	transition: all 0.2s ease-in-out;
+
 
 }
 .button1:hover{
@@ -37,15 +38,18 @@ body{
 
 }
 .button1:active{
-	background:radial-gradient(black , #5AAA95, white 150%);
+	background:radial-gradient(black , #5AAA95, white 130%);
 	color: white;
 
 	border: 3px solid rgba(255,255,255,1);
-	font-size: 1.75em;
-	transition: none; 
+	font-size: 48px;
+	transition: none;
+
+	box-shadow: 0px 0px 10px 5px  rgba(255,255,255,0.3);
+	/*transition: box-shadow 0s ease-in-out;*/
 }
 
-#tempometer{
+#tempometer-lasttwo, #tempometer-avg{
 	margin: 0 auto;	
 	text-align: center;
 	}

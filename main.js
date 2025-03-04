@@ -6,10 +6,12 @@ const createWindow = () => {
     height: 350,
 //frame: false
 	resizable: false,
-		transparent: true
+		backgroundMaterial: "acrylic",
+	icon: __dirname + 'logo.png',	
   })
 
   win.loadFile('index.html')
+	win.removeMenu()
 }
 
 app.whenReady().then(() => {
