@@ -5,7 +5,10 @@ click1 = 0
 
 
 function clicked() {
-	
+
+	let audio = new Audio("./sound.mp3");
+	audio.play();
+
 	if(ar.length >= win_size){
 		ar.shift()
 	}
